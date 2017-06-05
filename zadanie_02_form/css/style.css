@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 2vh;
+
+}
+
+#header {
+    position: relative;
+    top: 2vh;
+    left: 5vh;
+    text-align: left;
+    margin-bottom: 2vh;
+}
+
+#main-header-text {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+#form {
+    position: relative;
+    /*width: 60vw;*/
+    height: 80vh;
+    max-width: 60vw;
+    max-height: 80vh;
+    border: 0.1vw solid grey;
+    border-radius: 1vw;
+    top: 3vh;
+    left: 5vh;
+    padding: 2.5vw;
+    background-color: #213b50;
+    color: white;
+}
+
+.label,
+.field {
+    box-sizing: border-box;
+    width: 50%;
+    height: 4vh;
+    border: 0.1vw;
+    float: left;
+    position: relative;
+    margin-bottom: 1.6vh;
+    padding: 0.4vw 0 0 1vw;
+}
+
+#man,
+#woman {
+    position: relative;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: #2b4a64;
+}
+
+
+/*
+#name,
+#surname,
+#email,
+#phone,
+#city :not(#zgoda) {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    height: 4vh;
+    float: left;
+     background-color: #2b4a64;
+    border: 0.1vw solid grey;
+}
+*/
+
+#message {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    height: 30vh;
+    background-color: #2b4a64;
+    border: 0.1vw solid grey;
+}
+
+.submit {
+    position: absolute;
+    box-sizing: border-box;
+    width: 10vh;
+    top: 80vh;
+    left: 45%;
+}
+
+input[type] {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    height: 4vh;
+    float: left;
+    background-color: #2b4a64;
+    outline: 0;
+
+}
+
+input[type]:focus {
+    background-color: red;
+    border-color: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+select {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    height: 4vh;
+    float: left;
+    background-color: #2b4a64;
+    border: 0.1vw solid grey;
+}
+
+select:focus {
+    background-color: red;
+    border-color: blue;
+    color: #ffffff;
+}
+
+textarea {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    height: 4vh;
+    float: left;
+    background-color: #2b4a64;
+    border: 0.1vw solid grey;
+}
+
+textarea:focus {
+    background-color: red;
+    border-color: blue;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+}
