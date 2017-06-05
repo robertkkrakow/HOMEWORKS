@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*-----countdown-----*/
+
+.numbers {
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    font-size: 30vh;
+    font-family: 'Orbitron', sans-serif;
+    animation: counter 2s steps(1, end);
+    opacity: 0;
+}
+
+.numbers:nth-last-child(1) {
+    animation-delay: 9s;
+}
+
+.numbers:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.numbers:nth-child(3) {
+    animation-delay: 2s;
+}
+
+.numbers:nth-child(4) {
+    animation-delay: 3s;
+}
+
+.numbers:nth-child(5) {
+    animation-delay: 4s;
+}
+
+.numbers:nth-child(6) {
+    animation-delay: 5s;
+}
+
+.numbers:nth-child(7) {
+    animation-delay: 6s;
+}
+
+.numbers:nth-child(8) {
+    animation-delay: 7s;
+}
+
+.numbers:nth-child(9) {
+    animation-delay: 8s;
+}
+
+@keyframes counter {
+    0% {
+        opacity: 1;
+    }
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*-----i love css-----*/
+
+.slogan-css {
+    position: absolute;
+    display: block;
+    text-align: center;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    font-size: 30vh;
+    animation: slogan 2s steps(2, end) infinite;
+    animation-delay: 10s;
+    opacity: 0;
+}
+
+.slogan-css >i {
+    color: red;
+    animation: heart 1s linear infinite;
+}
+
+@keyframes slogan {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes heart {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.7);
+    }
+}
