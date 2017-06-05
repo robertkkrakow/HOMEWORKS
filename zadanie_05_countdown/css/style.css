@@ -94,6 +94,11 @@
     color: red;
     animation: heart 1s linear infinite;
 }
+.slogan-css>i:hover {
+    color: black;
+    animation: heart 1s infinite 1;
+}
+
 
 @keyframes slogan {
     0% {
