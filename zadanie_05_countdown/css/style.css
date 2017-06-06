@@ -32,7 +32,7 @@
     transform: translateY(-50%);
     left: 0;
     right: 0;
-    font-size: 30vh;
+    font-size: 32vh;
     font-family: digital-7regular;
 /*    font-family: 'Orbitron', sans-serif;*/
     animation: counter 2s steps(1, end);
@@ -41,38 +41,47 @@
 
 .numbers:nth-last-child(1) {
     animation-delay: 9s;
+    font-size: 14vh;
 }
 
 .numbers:nth-child(2) {
     animation-delay: 1s;
+    font-size: 30vh;
 }
 
 .numbers:nth-child(3) {
     animation-delay: 2s;
+    font-size: 28vh;
 }
 
 .numbers:nth-child(4) {
     animation-delay: 3s;
+    font-size: 26vh;
 }
 
 .numbers:nth-child(5) {
     animation-delay: 4s;
+    font-size: 24vh;
 }
 
 .numbers:nth-child(6) {
     animation-delay: 5s;
+    font-size: 22vh;
 }
 
 .numbers:nth-child(7) {
     animation-delay: 6s;
+    font-size: 20vh;
 }
 
 .numbers:nth-child(8) {
     animation-delay: 7s;
+    font-size: 18vh;
 }
 
 .numbers:nth-child(9) {
     animation-delay: 8s;
+    font-size: 16vh;
 }
 
 @keyframes counter {
