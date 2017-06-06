@@ -8,6 +8,12 @@
     height: 100vh;
 }
 
+@font-face {
+    font-family: digital;
+    src: url(../fonts/digital-7.ttf);
+    font-weight: bold;
+}
+
 
 /*-----countdown-----*/
 
@@ -21,7 +27,8 @@
     left: 0;
     right: 0;
     font-size: 30vh;
-    font-family: 'Orbitron', sans-serif;
+    font-family: digital;
+/*    font-family: 'Orbitron', sans-serif;*/
     animation: counter 2s steps(1, end);
     opacity: 0;
 }
