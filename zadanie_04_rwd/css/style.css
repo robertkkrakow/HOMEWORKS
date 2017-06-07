@@ -21,14 +21,13 @@
 
 .text-container{
     position: absolute;
-    width: 100%;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    left: 50px;
 }
 
 .text-container h1, h2 {
     color: white;
-    padding: 0 0 15px 50px;
     text-transform: uppercase;
 }

@@ -4,6 +4,8 @@
     .img-container {
         width: 100%;
     }
+    
+
 }
 
 
@@ -18,15 +20,13 @@
         background-size: cover;
     }
     .text-container {
-        position: absolute;
-        width: 100%;
-        top: 10%;
-        z-index: 1;
+        top: 100px;
+        right: 70px;
+        left: auto;
     }
     .text-container h1,
     h2 {
         color: white;
-        padding: 0 0 15px 55%;
         text-transform: uppercase;
     }
 }
@@ -41,6 +41,7 @@
         height: 50%;
         background: url(../img/man-1.jpg) no-repeat;
         background-size: cover;
+        background-position: top;
     }
     .text-container {
         position: absolute;
