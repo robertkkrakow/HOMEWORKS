@@ -27,7 +27,6 @@
     .text-container h1,
     h2 {
         color: white;
-        text-transform: uppercase;
     }
 }
 
@@ -41,7 +40,7 @@
         height: 50%;
         background: url(../img/man-1.jpg) no-repeat;
         background-size: cover;
-        background-position: top;
+        background-position:center;
     }
     .text-container {
         position: absolute;
