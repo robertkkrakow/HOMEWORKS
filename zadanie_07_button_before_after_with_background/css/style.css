@@ -1,19 +1,101 @@
 * {
     margin: 0;
+    background-color: rgb(148, 148, 148);
 }
 
-.bgbutton {
-    position: relative;
+
+/*text container*/
+
+.insider {
+    position: absolute;
     width: 400px;
-    height: 250px;
-    
+    height: 20%;
     border: none;
     outline: none;
     color: #fff;
     font-size: 3em;
-/*    line-height: 1em;*/
+    line-height: 1.5em;
     text-transform: uppercase;
-    left: 2vh;
+    background: rgba(31, 34, 35, .9);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    font-family: 'Bubbler One', sans-serif;
+}
+
+.insider:hover {
+    content: "";
+    width: 416px;
+    height: 40%;
+    font-size: 5em;
+    line-height: 1.8em;
+    left: -8px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    z-index: 10;
+}
+
+
+/*button*/
+
+.bg-button {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    border: none;
+    outline: none;
+    left: 10vh;
+    top: 10vh;
     background-image: url(../img/obraz.jpg);
     background-position: center;
+}
+
+.bg-button:before,
+.bg-button:after {
+    position: absolute;
+    border-color: transparent;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    border-style: solid;
+    content: "";
+    width: 408px;
+    height: 250px;
+}
+
+.bg-button:before {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-width: 4px 4px 0px 4px;
+    width: 408px;
+    height: 10%;
+    left: -8px;
+    top: -8px;
+}
+
+.bg-button:after {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 0 4px 4px 4px;
+    width: 408px;
+    height: 10%;
+    left: -8px;
+    bottom: -8px;
+}
+
+.bg-button:hover:before,
+.bg-button.hover:before {
+    border-color: rgba(35, 35, 35, 1);
+    width: 408px;
+    height: 55%;
+    top: -8px;
+}
+
+.bg-button:hover:after,
+.bg-button.hover:after {
+    border-color: rgba(35, 35, 35, 1);
+    width: 408px;
+    height: 55%;
+    bottom: -8px;
 }
