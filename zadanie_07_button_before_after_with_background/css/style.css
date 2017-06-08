@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.bgbutton {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 3em;
+/*    line-height: 1em;*/
+    text-transform: uppercase;
+    left: 2vh;
+    background-image: url(../img/obraz.jpg);
+    background-position: center;
+}
