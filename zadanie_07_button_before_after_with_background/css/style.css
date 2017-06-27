@@ -7,6 +7,7 @@
 /*text container*/
 
 .insider {
+    visibility: hidden;
     position: absolute;
     width: 400px;
     height: 20%;
@@ -23,8 +24,9 @@
     font-family: 'Bubbler One', sans-serif;
 }
 
-.insider:hover {
-    content: "";
+.bg-button:hover > .insider {
+/*    content: "";*/
+    visibility: visible;
     width: 416px;
     height: 40%;
     font-size: 5em;
